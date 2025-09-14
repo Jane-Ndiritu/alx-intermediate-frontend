@@ -553,3 +553,15 @@ video {
 [hidden]:where(:not([hidden="until-found"])) {
   display: none;
 }
+
+* {
+  scrollbar-color: initial;
+  scrollbar-width: initial;
+}
+
+@media (max-width: 768px) 
+{
+  main {
+    grid-template-columns: 1fr;
+  }
+}
